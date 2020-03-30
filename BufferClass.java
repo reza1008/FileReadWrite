@@ -9,8 +9,7 @@ public class BufferClass {
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(in);
         try {
-            //String name = br.readLine();
-            //System.out.println(name);
+            
             String name = "";
             while(!(name.equals("stop")))
             {
